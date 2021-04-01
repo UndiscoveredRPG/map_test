@@ -30,7 +30,7 @@ function Tile({mapData}){
     `
     return(
         <StyledTile className={material}>
-            Tile
+            {material}
         </StyledTile>
     )
 }
